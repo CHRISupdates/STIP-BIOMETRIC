@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="UISupportSample VB.exe" version="1.0.0.6" publicKeyToken="5708137a1698590c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="UISupportSample VB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="UISupportSample VB.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPCtlXTypeLibNET" version="1.6.1.0" publicKeyToken="C0C98F712D5392A7" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPCtlXWrapperNET" version="1.6.1.0" publicKeyToken="C0C98F712D5392A7" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPGuiNET" version="1.6.1.0" publicKeyToken="D4F4A0BD9C559145" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPShrNET" version="1.6.1.0" publicKeyToken="D902FE275A8D6CF2" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPShrXTypeLibNET" version="1.6.1.0" publicKeyToken="C0C98F712D5392A7" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="DPFPVerNET" version="1.6.1.0" publicKeyToken="4DE0A9C4DCC83984" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.DLL" size="457728">
+      <assemblyIdentity name="MySql.Data" version="6.9.8.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>B6Mze1CmSDAzJDIOQ/grJAi8tBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UISupportSample VB.exe" size="1157632">
+      <assemblyIdentity name="UISupportSample VB" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>LYnzaBzbVw6P9T9X81u8a7xoF7I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=HADRIANO-CCYN1\admin" issuerKeyHash="726b59a8303240d997acfd1bded96e165bd461c5" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OJbzG7movO7hhtkgFI7MIkMfS0I=</DigestValue></Reference></SignedInfo><SignatureValue>q5D+M1aRnuFda+kSe6F/of8RZ8aVnvHCw2Mmhi8AuupODm2qxyXctDZ8sJdoI1Kmg8W8DttHEpqHyGoJgqfmKz+kQn887YDYSFtcJ2TG2CYIgc5ew0qHODd8FbEcuqsUcL1uJBAxjl6yB/2RaXixYISo8c4PGIdChRQ1Y0Ed+o4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x/KgZm3ZPeD+jzJ+hIfADKeZZjC1RILm1Z3jaoat5cYmhx0EpQTuH7SJsRT8oD7EoLKjWpNP+JzcfWA9qG1qTlYHa0E+N1XMIG9KLC81F7HznHY601jXByNuO3DkHck5XDJT8BJflKKBFSDYBGThZmEHBlhABuv06xW/HTcJWHU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="424b1f4322cc8e1420d986e1eebca8b91bf39638" Description="" Url=""><as:assemblyIdentity name="UISupportSample VB.exe" version="1.0.0.6" publicKeyToken="5708137a1698590c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HADRIANO-CCYN1\admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>5YS6xJ3PTSLLi4DtPxXkVpsGreo=</DigestValue></Reference></SignedInfo><SignatureValue>ryPdQc/ieN5m6mwYOdl4OZ2IGYT7dQPeyM7ISp1XpvcP2d43Gaw9K/uyBppdqBiZo4ih6DeJFTLjZIpjrzMHy5EqVjQjhcIb7eGrisv/YKDQIaxHkT4rLfAagHyImCc6E5X3B9IiR+jMDEK5SX5hsPjBcOemXgl2dqlGoHklFww=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x/KgZm3ZPeD+jzJ+hIfADKeZZjC1RILm1Z3jaoat5cYmhx0EpQTuH7SJsRT8oD7EoLKjWpNP+JzcfWA9qG1qTlYHa0E+N1XMIG9KLC81F7HznHY601jXByNuO3DkHck5XDJT8BJflKKBFSDYBGThZmEHBlhABuv06xW/HTcJWHU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQauMSrAVtLL1F5Ao6dOnfzjANBgkqhkiG9w0BAQUFADAzMTEwLwYDVQQDHigASABBAEQAUgBJAEEATgBPAC0AQwBDAFkATgAxAFwAYQBkAG0AaQBuMB4XDTI0MTAwODA2NTg0NFoXDTI1MTAwODEyNTg0NFowMzExMC8GA1UEAx4oAEgAQQBEAFIASQBBAE4ATwAtAEMAQwBZAE4AMQBcAGEAZABtAGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAx/KgZm3ZPeD+jzJ+hIfADKeZZjC1RILm1Z3jaoat5cYmhx0EpQTuH7SJsRT8oD7EoLKjWpNP+JzcfWA9qG1qTlYHa0E+N1XMIG9KLC81F7HznHY601jXByNuO3DkHck5XDJT8BJflKKBFSDYBGThZmEHBlhABuv06xW/HTcJWHUCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBMDKBN5y4T/BFk3UqXe98qOpx6imk2wX3NE3wKKLKlTg4TEHK+rrahBdK6hEeTeCDvazZKm5mNSydpEPXyklSzREAFgtLiLQkhWyyU2hjJZ1ZY3/crL+XADHBRabKViSxS+CCky2HNz36cs9wfPHMdhvf8ZQchkK3gFdVpSkttLA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
